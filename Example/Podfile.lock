@@ -1,0 +1,16 @@
+PODS:
+  - LDOHairlineBorderView (0.1.0)
+
+DEPENDENCIES:
+  - LDOHairlineBorderView (from `../`)
+
+EXTERNAL SOURCES:
+  LDOHairlineBorderView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDOHairlineBorderView: 30c673714fea64039348aca7968718e404b32a67
+
+PODFILE CHECKSUM: 35abc1c47b3a8ac5ea1c73f16d8c3ec659bec7ad
+
+COCOAPODS: 1.5.3

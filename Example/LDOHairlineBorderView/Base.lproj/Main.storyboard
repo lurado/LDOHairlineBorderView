@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="ViewController" customModule="LDOHairlineBorderView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cQr-au-I06" customClass="LDOHairlineBorderViewLite">
+                                <rect key="frame" x="0.0" y="91" width="375" height="75"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="MGg-af-YRn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="hairlineColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="horizontalHairlineInset">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="topHairline" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="bottomHairline" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Mt-Hh-d8s" customClass="LDOHairlineBorderView">
+                                <rect key="frame" x="0.0" y="196" width="375" height="225"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="hairlineColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="horizontalHairlineInset">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="topHairline" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="bottomHairline" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomHairlineColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomHairlineInset">
+                                        <real key="value" value="36"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7r-lE-5cO" customClass="LDOHairlineBorderView">
+                                <rect key="frame" x="87.5" y="451" width="200" height="200"/>
+                                <color key="backgroundColor" white="0.97937031003159558" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ZXp-1V-TIM"/>
+                                    <constraint firstAttribute="height" constant="200" id="y2N-6B-Sz8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="topHairline" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="bottomHairline" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomHairlineColor">
+                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomHairlineInset">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="leftHairline" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rightHairline" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topHairlineColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="leftHairlineColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="rightHairlineColor">
+                                        <color key="value" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="horizontalHairlineInset">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightHairlineTopInset">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightHairlineBottomInset">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftHairlineTopInset">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftHairlineBottomInset">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topHairlineLeftInset">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cQr-au-I06" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="71" id="2LM-e8-LJI"/>
+                            <constraint firstItem="6Mt-Hh-d8s" firstAttribute="top" secondItem="cQr-au-I06" secondAttribute="bottom" constant="30" id="MvS-br-y7E"/>
+                            <constraint firstItem="d7r-lE-5cO" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="NcQ-By-hTQ"/>
+                            <constraint firstItem="d7r-lE-5cO" firstAttribute="top" secondItem="6Mt-Hh-d8s" secondAttribute="bottom" constant="30" id="WIu-GK-kau"/>
+                            <constraint firstItem="cQr-au-I06" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="XDI-jK-18M"/>
+                            <constraint firstItem="6Mt-Hh-d8s" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="Xik-Wh-v3B"/>
+                            <constraint firstAttribute="trailing" secondItem="cQr-au-I06" secondAttribute="trailing" id="hh9-Zo-hYi"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="d7r-lE-5cO" secondAttribute="bottom" constant="16" id="iQU-Sf-uf7"/>
+                            <constraint firstAttribute="trailing" secondItem="6Mt-Hh-d8s" secondAttribute="trailing" id="rmc-jP-fw0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+        </scene>
+    </scenes>
+</document>
