@@ -44,7 +44,7 @@
 {
     // Ensure a valid layout without having to specify height constraints.
     // Unfortunately Interface Builder does not read this value and one has
-    // to set a placeholder intrinisc content size to stop it complaining.
+    // to set a placeholder intrinsic content size to stop it complaining.
     return CGSizeMake(1, 1);
 }
 
