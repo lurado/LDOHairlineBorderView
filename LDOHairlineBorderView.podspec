@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LDOHairlineBorderView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A view with 1px (NOT pt!) configurable borders and Interface Builder support.'
 
   s.description      = <<-DESC
